@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SOLID_LSP_Demo
 {
-    internal class Employee
+    public class Employee
     {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public decimal Salary { get; set; }
     }
 }

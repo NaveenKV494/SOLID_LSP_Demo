@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID_LSP_Demo
 {
-    internal class Manager
+    public class Manager
     {
     }
 }
