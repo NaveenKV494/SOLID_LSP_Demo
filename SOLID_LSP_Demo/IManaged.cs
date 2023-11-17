@@ -8,7 +8,7 @@ namespace SOLID_LSP_Demo
 {
     public interface IManaged : IEmployee
     {
-        Employee Manager { get; set; }
-        void AssignManager(Employee manager);
+        IEmployee Manager { get; set; }
+        void AssignManager(IEmployee manager);
     }
 }

@@ -16,14 +16,14 @@ namespace SOLID_LSP_Demo
             accountingVP.LastName = "Kumar";
             accountingVP.CalculatePerHourRate(4);
 
-            Employee emp = new CEO();
+            Employee emp = new Manager();
 
             emp.FirstName = "Karthik";
             emp.LastName = "Vijay";
             emp.AssignManager(accountingVP);
             emp.CalculatePerHourRate(2);
 
-            Console.WriteLine($"{emp.FirstName}'s salary is ${emp.Salary}/hour.");
+            Console.WriteLine($"{emp.FirstName}'s salary is Rs.{emp.Salary}/hour.");
 
             Console.ReadLine();
         }

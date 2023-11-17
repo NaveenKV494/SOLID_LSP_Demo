@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID_LSP_Demo
 {
-    public class Manager : Employee
+    public class Manager : Employee, IManager
     {
         public override void CalculatePerHourRate(int rank)
         {
