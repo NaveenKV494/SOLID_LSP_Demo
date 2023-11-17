@@ -46,6 +46,8 @@
     <Compile Include="CEO.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="IEmployee.cs" />
+    <Compile Include="IManaged.cs" />
+    <Compile Include="IManager.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
